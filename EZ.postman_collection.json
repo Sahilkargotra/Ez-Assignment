@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "03284ae8-20f4-4f44-8492-5cb4ea557d42",
+		"name": "EZ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29155490"
+	},
+	"item": [
+		{
+			"name": "form-api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"john@example.com\",\r\n  \"country_code\": \"+91\",\r\n  \"phone_no\": \"1234567890\",\r\n  \"service\": [\"Website Development\"],\r\n  \"message\": \"Hi! I need a website for my food truck business.\",\r\n  \"promotion\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.ezworks.ai/form-api\n",
+					"protocol": "https",
+					"host": [
+						"test",
+						"ezworks",
+						"ai"
+					],
+					"path": [
+						"form-api\n"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "form-api",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"John Doe\",\r\n  \"email\": \"john@example.com\",\r\n  \"country_code\": \"+91\",\r\n  \"phone_no\": \"1234567890\",\r\n  \"service\": [\"Website Development\"],\r\n  \"message\": \"Hi! I need a website for my food truck business.\",\r\n  \"promotion\": false\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://test.ezworks.ai/form-api\n",
+					"protocol": "https",
+					"host": [
+						"test",
+						"ezworks",
+						"ai"
+					],
+					"path": [
+						"form-api\n"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
